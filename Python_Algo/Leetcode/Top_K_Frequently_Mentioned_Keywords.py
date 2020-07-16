@@ -25,7 +25,7 @@ def topkey(k,keywords,reviews):
             
     
            
-    output.sort(key = lambda i: (-count[i],i))       
+    output.sort(key = lambda i: (-count[i]))       
     print(output)
 
 print(topkey(k,keywords,reviews))
