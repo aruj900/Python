@@ -1,3 +1,2 @@
-a = "aruj"
-
-print(a)
+a = [1,2,3,4]
+"this is new file"
