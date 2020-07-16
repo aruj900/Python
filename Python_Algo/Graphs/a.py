@@ -1,0 +1,3 @@
+a = "aruj"
+
+print(a)
