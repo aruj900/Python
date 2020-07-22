@@ -16,9 +16,9 @@ def _anagram(s1,s2):
         if n_s1[i] != n_s2[i]:
             found = False
             break
-    return done
+    return found
                 
-print(_anagram('dog','g  d')) 
+print(_anagram('dog','g od')) 
     
 def anagram(s1,s2):
     
@@ -47,3 +47,17 @@ def anagram(s1,s2):
         if count[k] != 0:
             return False
     return True
+
+import time
+start = time.perf_counter()
+
+print(_anagram('public relations','crap built on liesg'))
+end = time.perf_counter()
+print(end - start)
+
+
+start_1 = time.perf_counter()
+
+print(anagram('public relations','crap built on liesg'))
+end_1 = time.perf_counter()
+print(end - start)
