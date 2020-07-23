@@ -127,3 +127,36 @@ def func3(a,b,*,d):
     print(a,b,d)
     
 print(func3(a,b,d=4))
+
+# **kwargs for all keyword arguments
+
+def func(*args, **kwargs):
+    print(args)
+    print(kwargs)
+    
+print(func(1,2,x=100,y=200))
+
+
+def func(a,b,*args,d, **kwargs):
+    print(a)
+    print(b)
+    print(d)
+    print(kwargs)
+    
+print(func(1,2,x=100,y=200,d=10))
+
+
+# when you define *args you loose the ability to call default value
+
+def func(a,b=2,*args,c=3,d):
+    print(a,b,args,c,d)
+    
+print(func(10,20,'x','y','z',d=10))
+
+#print(func(1,'x','y','z',b=4,d=10))
+
+print(func(1,'x','y','z',d=10))
+
+print(1,2,3,sep='-')
+
+print(1,2,3,end="*")
