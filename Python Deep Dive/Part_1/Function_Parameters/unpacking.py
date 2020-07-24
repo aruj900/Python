@@ -160,3 +160,10 @@ print(func(1,'x','y','z',d=10))
 print(1,2,3,sep='-')
 
 print(1,2,3,end="*")
+
+def calc_hi_lo_avg(*args,log_to_console=False):
+    hi = int(bool(args)) and max(args)
+    lo = min(args) if len(args) > 0 else 0
+    avg = (hi + lo)/2
+    return avg
+

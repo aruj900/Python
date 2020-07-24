@@ -41,5 +41,7 @@ run_float(n)
 end = time.perf_counter()
 print('float: ',end-start)
 
+#decimal is slow to operate but you get accurate result
+
 
 

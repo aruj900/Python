@@ -52,3 +52,5 @@ print((s2 and s2[0]) or 'n/a' )
 
 print(not 'abc')
 
+
+

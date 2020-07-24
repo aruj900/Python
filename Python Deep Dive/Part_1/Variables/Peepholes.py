@@ -33,15 +33,15 @@ def membership_test(n,container):
         if 'z' in container:
             pass
 
-#start = time.perf_counter()
-#membership_test(10000000,char_list)
-#end = time.perf_counter()
-#print('list: ',end-start)
+start = time.perf_counter()
+membership_test(10000000,char_list)
+end = time.perf_counter()
+print('list: ',end-start)
 
-#start = time.perf_counter()
-#membership_test(10000000,char_tuple)
-#end = time.perf_counter()
-#print('list: ',end-start)
+start = time.perf_counter()
+membership_test(10000000,char_tuple)
+end = time.perf_counter()
+print('list: ',end-start)
 
 start = time.perf_counter()
 membership_test(10000000,char_set)

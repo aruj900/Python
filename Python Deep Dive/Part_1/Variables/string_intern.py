@@ -29,10 +29,10 @@ def compare_equals(n):
 
 import time
 
-#start = time.perf_counter()
-#compare_equals(10000000)
-#end = time.perf_counter()
-#print('equality', end-start)
+start = time.perf_counter()
+compare_equals(10000000)
+end = time.perf_counter()
+print('equality', end-start)
 
 
 start = time.perf_counter()

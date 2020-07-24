@@ -53,3 +53,5 @@ print(time_it(compute_powers_1,2,start=0,rep=5,end= 20000))
 print(time_it(compute_powers_2,2,start=0,rep=5,end= 20000))
 
 print(time_it(compute_powers_3,2,start=0,rep=5,end= 20000))
+
+#Generators doesn't calculate without list
