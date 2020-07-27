@@ -1,18 +1,14 @@
-def pair_sum(arr,k):
+def mutateTheArray(n, a):
+    b = []
     
-    if len(arr) < 2:
-        return 
-    seen = set()
-    output = set()
+    b.append(a[0] + a[1])
+    print(b)
+    for i in range(1,n-1):
+        b.append(a[i-1] + a[i] + a[i+1])
+    b.append(a[n-1] + a[n-2])
     
-    for i in arr:
-        target = k - i
-        
-        if target not in seen:
-            seen.add(i)
-            
-        else:
-            output.add((min(i,target),max(i,target)))
-    print('\n'.join(map(str,list(output))))
+    return b
 
-print(pair_sum([1,3,2,9,5,6],11))
+a = [1,2,3,4,5]
+n = 5
+print(mutateTheArray(n,a))
