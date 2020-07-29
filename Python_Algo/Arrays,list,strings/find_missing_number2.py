@@ -13,9 +13,9 @@ def finder2(arr1,arr2):
         else:
             d[num] -=1
     
-        
+
+arr1 = [2,4,7,3,9]
+arr2 = [2,4,9,7]
+
+print(finder2(arr1,arr2)) 
                     
-arr1 = [1,2,3,4,9,6,7]
-arr2 = [3,7,2,1,4,6]
-print(finder2(arr1,arr2))
-            
