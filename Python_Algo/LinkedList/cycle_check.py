@@ -36,7 +36,7 @@ z = Node(3)
 x.next_node = y
 y.next_node = z
 
-sol = cycle_check(x)
+sol = cycle_check(a)
 if sol == True:
     print("It passed")
 else:

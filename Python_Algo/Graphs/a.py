@@ -1,14 +1,21 @@
-def mutateTheArray(n, a):
-    b = []
+def binary_search(arr,ele):
     
-    b.append(a[0] + a[1])
-    print(b)
-    for i in range(1,n-1):
-        b.append(a[i-1] + a[i] + a[i+1])
-    b.append(a[n-1] + a[n-2])
+    first = 0
+    last = len(arr) -1
     
-    return b
+    found = False
+    
+    while first <= last and not found:
+        mid = (first + last)//2
+        if arr[mid] == ele:
+            found = True
+            return mid
+        elif ele < arr[mid]:
+            last = mid -1
+        else:
+            first = mid + 1
+    return -1
 
-a = [1,2,3,4,5]
-n = 5
-print(mutateTheArray(n,a))
+arr = [1,3,5,7,9,10,14]
+
+print(binary_search(arr,14))        
