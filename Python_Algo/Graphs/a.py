@@ -1,21 +1,44 @@
-def binary_search(arr,ele):
+def quick_sort(arr):
+    quick_sort_helper(arr,0,len(arr)-1)
     
-    first = 0
-    last = len(arr) -1
+def quick_sort_helper(arr,first,last):
+    if first < last:
+        splipoint = partition(arr,first,last)
+        
+        quick_sort_helper(arr,first,splipoint-1)
+        quick_sort_helper(arr,splipoint+1,last)
+        
+
+def partition(arr,first,last):
     
-    found = False
+    pivotvalue = arr[first]
+    leftmark = first + 1
+    rightmark = last
     
-    while first <= last and not found:
-        mid = (first + last)//2
-        if arr[mid] == ele:
-            found = True
-            return mid
-        elif ele < arr[mid]:
-            last = mid -1
+    done = False
+    
+    while not done:
+        
+        while leftmark <= rightmark and arr[leftmark] <= pivotvalue:
+            leftmark += 1
+        
+        while rightmark >= leftmark and arr[rightmark] >= pivotvalue:
+            rightmark -= 1
+            
+        if rightmark < leftmark:
+            done = True
+        
         else:
-            first = mid + 1
-    return -1
+            temp = arr[leftmark]
+            arr[leftmark] = arr[rightmark]
+            arr[rightmark] = temp
+    
+    temp = arr[first]
+    arr[first] = arr[rightmark]
+    arr[rightmark] = temp
+    
+    return rightmark
 
-arr = [1,3,5,7,9,10,14]
-
-print(binary_search(arr,14))        
+arr = [5,8,3,10,1]
+quick_sort(arr)
+print(arr)
