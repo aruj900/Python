@@ -47,9 +47,12 @@ print(func_2())
 
 @logged
 @timed
+# when we stack decorators it behaves like this logged(timed(func)) timer will execute fit as it is inner func
 def fact(n):
     from operator import mul
     from functools import reduce
     
     return reduce(mul,range(1,n+1))
 print(fact(10))
+
+

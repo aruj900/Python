@@ -40,7 +40,5 @@ def outer3_func():
         inner2()
     inner1()
     print(x)
-            
-       
-
+    
 outer3_func()

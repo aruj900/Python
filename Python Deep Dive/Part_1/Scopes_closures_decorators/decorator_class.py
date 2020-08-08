@@ -215,6 +215,8 @@ p1, p2, p3 = Point(2,3), Point(2,3), Point(0,0)
 
 print(p1 >= p2)
 
+
+# As long as you have define one of the order others are created 
 from functools import total_ordering
 
 @total_ordering

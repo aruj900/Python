@@ -62,7 +62,7 @@ print(fact(7))
 
 
 from functools import lru_cache
-
+# This does whatver we did above
 @lru_cache()
 def fib2(n):
     print('calculating fib({0})'.format(n))
@@ -71,7 +71,7 @@ def fib2(n):
 print(fib2(10))
 print(fib2(12))
 
-
+# we can set maxsize of the cache
 @lru_cache(maxsize=8)
 def fib3(n):
     print('calculating fib({0})'.format(n))

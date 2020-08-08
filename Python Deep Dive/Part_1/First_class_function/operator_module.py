@@ -52,4 +52,5 @@ obj = MyClass1()
 
 print(obj.test(100))
 
-print(operator.methodcaller('test',100)(obj))
+print(operator.methodcaller('test',100,200)(obj))
+

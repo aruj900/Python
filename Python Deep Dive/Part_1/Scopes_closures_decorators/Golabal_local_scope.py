@@ -40,3 +40,4 @@ def my_func():
     return 
 my_func()
 print(var)
+
