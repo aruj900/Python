@@ -24,3 +24,5 @@ print(s.index('n', 3))
 print(s[7:0:-1])
 
 print(s[::-1])
+
+
