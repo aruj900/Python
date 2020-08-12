@@ -126,4 +126,5 @@ line2 = copy.deepcopy(line1)
 
 print(line1.p1, id(line1.p1))
 print(line2.p1, id(line2.p1))
-    
+
+# If we use only copy it will refer to same object
