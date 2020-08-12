@@ -1,0 +1,41 @@
+ARRAY
+Get and set operations in array is O(1) operation
+init an array O(n) ST
+Trevese or for loop - O(n) T, O(1) S
+Copy is O(n) ST
+Inserting a vlaue in a static array O(n) T , O(1) S
+For Dynamic it can be O(1) ST
+
+LINKEDLIST
+Reference is on head of the LINKEDLIST
+Get and set operations in LINKEDLIST is O(i) T (i is index) O(1) S
+Init O(N) ST
+Copy is O(n) ST
+Trevese is O(n) T, O(1) S
+Inserting a value in LINKEDLIST O(1) T(for head) (for tail also for doubly linked list)
+and O(i) T(for index i) , O(1) S
+
+
+Hash Tables
+Inserting, search and deletting are O(1) ST (on average)
+We use hash function to store at some index
+It can take O(n) in worst case but mostly treat as constant
+
+
+Stacks and Queue
+Constant time insertion and deletion O(1) ST
+Search is O(n) and O(1)
+
+String
+Traverse is O(n) T and O(1) S
+Copy is O(n) ST
+get is O(1) ST
+Strings are immutable it will create a brand new String
+Adding wil create a brand new string 
+Always split the list and then do operations
+
+Tree
+Traversing a Tree, vising all the nodes is O(n) ST
+
+
+
