@@ -28,7 +28,7 @@ def trimbst(tree,minVal,maxVal):
         return
     
     tree.left = trimbst(tree.left,minVal,maxVal)
-    tree.right = trimbst(tree.left,minVal,maxVal)
+    tree.right = trimbst(tree.right,minVal,maxVal)
     
     if minVal <= tree.val <= maxVal:
         return tree

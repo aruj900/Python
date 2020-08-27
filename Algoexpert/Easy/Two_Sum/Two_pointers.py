@@ -10,7 +10,7 @@ def twoSum(arr,target):
         elif currentSum < target:
             left += 1
         elif currentSum > target:
-            right += 1
+            right -= 1
     return []
 
 print(twoSum([1,3,2,9,5,6],11))

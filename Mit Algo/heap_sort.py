@@ -50,3 +50,4 @@ def heap_sort(arr):
 arr = [1,12,8,9,6,10]
 print(heap_sort(arr))    
 print(arr)    
+

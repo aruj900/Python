@@ -20,3 +20,4 @@ s = slice(1,5)
 print(s.indices(10))
 
 print(slice(0,100,2).indices(10))
+
