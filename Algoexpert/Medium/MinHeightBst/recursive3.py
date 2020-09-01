@@ -6,8 +6,8 @@ def constructMinHeightBst(array, startIdx, endIdx):
         return None
     midIdx = (startIdx + endIdx) // 2
     bst = BST(array[midIdx])
-    bst.left = constructMinHeightBst(array, bst, startIdx, midIdx - 1)
-    bst.right = constructMinHeightBst(array, bst, midIdx + 1, endIdx)
+    bst.left = constructMinHeightBst(array,startIdx, midIdx - 1)
+    bst.right = constructMinHeightBst(array, midIdx + 1, endIdx)
     return bst
     
 
@@ -29,7 +29,7 @@ class BST:
             else:
                 if currentNode.right is None:
                     currentNode.right = BST(value)
-                    break
+                    break           
                 else:
                     currentNode = currentNode.right
         return self
