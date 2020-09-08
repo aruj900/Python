@@ -4,7 +4,7 @@ def nth_to_last_node(n,head):
    right = head
    
    if not right.nextnode:
-       print("It exceed the length og the list")
+       print("It exceed the length of the list")
        
    for  i in  range(n-1):
        right.nextnode
