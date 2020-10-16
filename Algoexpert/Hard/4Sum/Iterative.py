@@ -6,7 +6,7 @@ def fourSum(array,targetSum):
             currentSum = array[i] + array[j]
             diff = targetSum - currentSum
             if diff in allPairSums:
-                for pair in allPairSums[difference]:
+                for pair in allPairSums[diff]:
                     quadruplets.append(pair + [array[i],array[j]])
         for k in range(0,i):
             currentSum = array[i] + array[k]
