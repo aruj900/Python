@@ -17,6 +17,7 @@ def topologicalSort(vertices,edges):
         graph[parent].children.append(child)
         graph[child].indegrees += 1
     
+
     sources = deque()
     for node in graph:
         if not graph[node].indegrees:
@@ -32,3 +33,5 @@ def topologicalSort(vertices,edges):
         return output
     else:
         return []
+
+
