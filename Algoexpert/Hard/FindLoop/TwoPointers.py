@@ -6,6 +6,6 @@ def findLoop(head):
         second = second.next.next
     first = head
     while first != second:
-        fisrt = first.next
+        first = first.next
         second = second.next
     return first
