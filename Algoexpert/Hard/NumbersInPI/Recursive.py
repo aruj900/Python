@@ -1,7 +1,8 @@
 #O(n^3 + m)
 def numbersInPi(pi,numbers):
     numbersTable = {number: True for number in numbers}
-    minSpaces = getMinSpaes()
+    minSpaces = getMinSpaces(pi,numbersTable,{},0)
+    return - 1 if minSpaces == float("inf") else minSpaces
 
 def getMinSpaces(pi,numbersTable,cache,idx):
     if idx == len(pi):
@@ -10,7 +11,7 @@ def getMinSpaces(pi,numbersTable,cache,idx):
         return cache[idx]
     
     minSpaces = float("inf")
-    for in range(idx,len(pi)):
+    for i in range(idx,len(pi)):
         prefix = pi[idx:i + 1]
         if prefix in numbersTable:
             minSpacesInSuffix = getMinSpaces(pi,numbersTable,cache,i+1)

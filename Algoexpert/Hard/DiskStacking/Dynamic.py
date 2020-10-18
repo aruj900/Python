@@ -1,5 +1,5 @@
 def diskStacking(disks):
-    disk.sort(key = lambda disk: disk[2])
+    disks.sort(key = lambda disk: disk[2])
     heights = [disk[2] for disk in disks]
     sequences = [None for disk in disks]
     maxHeightIdx = 0
@@ -22,7 +22,7 @@ def areValidDimensions(o,c):
 
 
 def buildSequence(array,sequences, currentIdx):
-    sequences = []
+    sequence = []
     while currentIdx is not None:
         sequence.append(array[currentIdx])
         currentIdx = sequences[currentIdx]
