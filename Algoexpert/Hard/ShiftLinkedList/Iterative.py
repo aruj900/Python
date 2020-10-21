@@ -9,7 +9,7 @@ def shiftLinkedList(head,k):
         return head
     newTailPosition = listLength - offset if k > 0 else offset
     newTail = head
-    for i in range(1, newTailPosition):
+    for _ in range(1, newTailPosition):
         newTail = newTail.next
     
     newHead = newTail.next

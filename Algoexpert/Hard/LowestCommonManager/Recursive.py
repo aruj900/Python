@@ -1,5 +1,5 @@
 def getLowestCommonManager(topManager, reprtOne, reportTwo):
-    return getOrgInfo(topManager, reprtOne, reportTwo).lowestCommonManager
+    return getOrgInfo(topManager, reportOne, reportTwo).lowestCommonManager
 
 def getOrgInfo(manager, reportOne, reportTwo):
     numImportantReports = 0
