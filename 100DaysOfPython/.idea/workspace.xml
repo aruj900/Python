@@ -20,13 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7de1c8d0-2523-430d-831c-aa516dacc85a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Day16/Coffee_oop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day16/OOP_turtle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day16/Package_pypi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day16/oop-coffee-machine-start/coffee_maker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day16/oop-coffee-machine-start/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day16/oop-coffee-machine-start/menu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day16/oop-coffee-machine-start/money_machine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day17/Class.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day17/quiz-game-start/data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day17/quiz-game-start/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day17/quiz-game-start/question_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day17/quiz-game-start/quiz_brain.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algoexpert/Practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Algoexpert/Practice.py" afterDir="false" />
     </list>
@@ -52,7 +50,28 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.main (1)">
+    <configuration name="Class" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="100DaysOfPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day17" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day17/Class.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="OOP_turtle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100DaysOfPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -116,7 +135,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="coffee" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100DaysOfPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -124,11 +143,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day15" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day17/quiz-game-start" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day15/coffee.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day17/quiz-game-start/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,10 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.Class" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.Package_pypi" />
         <item itemvalue="Python.OOP_turtle" />
-        <item itemvalue="Python.coffee" />
       </list>
     </recent_temporary>
   </component>
@@ -201,28 +221,28 @@
     <state x="304" y="163" width="1071" height="848" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.23.1920.1057/0.0.1680.1050@0.0.1680.1050" timestamp="1605327123510" />
     <state x="304" y="175" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.23.1920.1057/0.23.1680.980@0.23.1680.980" timestamp="1605312173304" />
     <state x="304" y="175" width="1071" height="725" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.23.1920.1057/0.23.1680.981@0.23.1680.981" timestamp="1605312399415" />
-    <state width="1659" height="295" key="GridCell.Tab.0.bottom" timestamp="1605342707448">
+    <state width="1659" height="295" key="GridCell.Tab.0.bottom" timestamp="1605388858527">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1659" height="295" key="GridCell.Tab.0.bottom/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1605342707448" />
+    <state width="1659" height="295" key="GridCell.Tab.0.bottom/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1605388858527" />
     <state width="1659" height="364" key="GridCell.Tab.0.bottom/1680.23.1920.1057/0.0.1680.1050@0.0.1680.1050" timestamp="1605327210590" />
     <state width="1659" height="265" key="GridCell.Tab.0.bottom/1680.23.1920.1057/0.23.1680.981@0.23.1680.981" timestamp="1605312421841" />
-    <state width="1659" height="295" key="GridCell.Tab.0.center" timestamp="1605342707447">
+    <state width="1659" height="295" key="GridCell.Tab.0.center" timestamp="1605388858526">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1659" height="295" key="GridCell.Tab.0.center/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1605342707447" />
+    <state width="1659" height="295" key="GridCell.Tab.0.center/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1605388858526" />
     <state width="1659" height="364" key="GridCell.Tab.0.center/1680.23.1920.1057/0.0.1680.1050@0.0.1680.1050" timestamp="1605327210589" />
     <state width="1659" height="265" key="GridCell.Tab.0.center/1680.23.1920.1057/0.23.1680.981@0.23.1680.981" timestamp="1605312421840" />
-    <state width="1659" height="295" key="GridCell.Tab.0.left" timestamp="1605342707446">
+    <state width="1659" height="295" key="GridCell.Tab.0.left" timestamp="1605388858525">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1659" height="295" key="GridCell.Tab.0.left/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1605342707446" />
+    <state width="1659" height="295" key="GridCell.Tab.0.left/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1605388858525" />
     <state width="1659" height="364" key="GridCell.Tab.0.left/1680.23.1920.1057/0.0.1680.1050@0.0.1680.1050" timestamp="1605327210588" />
     <state width="1659" height="265" key="GridCell.Tab.0.left/1680.23.1920.1057/0.23.1680.981@0.23.1680.981" timestamp="1605312421839" />
-    <state width="1659" height="295" key="GridCell.Tab.0.right" timestamp="1605342707448">
+    <state width="1659" height="295" key="GridCell.Tab.0.right" timestamp="1605388858527">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1659" height="295" key="GridCell.Tab.0.right/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1605342707448" />
+    <state width="1659" height="295" key="GridCell.Tab.0.right/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1605388858527" />
     <state width="1659" height="364" key="GridCell.Tab.0.right/1680.23.1920.1057/0.0.1680.1050@0.0.1680.1050" timestamp="1605327210589" />
     <state width="1659" height="265" key="GridCell.Tab.0.right/1680.23.1920.1057/0.23.1680.981@0.23.1680.981" timestamp="1605312421840" />
     <state width="1659" height="364" key="GridCell.Tab.1.bottom" timestamp="1605327210593">
