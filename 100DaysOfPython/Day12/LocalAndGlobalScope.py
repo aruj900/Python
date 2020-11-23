@@ -26,3 +26,5 @@ def increase_enemies():
 
 increase_enemies()
 print(f"Enimies outside function {enemies}")
+
+# make global variable as capital

@@ -20,14 +20,14 @@ operations = {
 
 print(art.logo)
 def calculator():
-    num1 = int(input("What's the first number?: "))
+    num1 = float(input("What's the first number?: "))
     for key in operations:
         print(key)
 
     should_continue = True
     while should_continue:
         operation = input("Pick an operation from the line above: ")
-        num2 = int(input("What's the second number?: "))
+        num2 = float(input("What's the second number?: "))
         calculation_function = operations[operation]
         answer = calculation_function(num1,num2)
 
