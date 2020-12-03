@@ -3,6 +3,10 @@ a = [1 #item 1
      ,2]
 print(a)
 
+a = (1,
+    2)
+
+print(a)
 d = {'key1': 1 #value 1
      ,'key2': 2 #value 2
 }
@@ -21,6 +25,9 @@ def func(a #first value
 
 print(func(a,b))
 
+print(func(a
+            ,b))
+
 
 #Explicit multiline
 
@@ -28,6 +35,7 @@ a = 10
 b = 20
 c = 30
 
+# cant put comment after the backslash
 if a > 5 \
     and  b > 10 \
         and c > 20:
