@@ -19,14 +19,14 @@ def removeIslands(grid):
             if grid[i][j] == 1 and (i == 0 or j == 0 or i == len(grid) -1 or j == len(grid[0]) -1):
                 dfs(i,j,grid,2,1)
 				
-	for i in range(len(grid)):
+    for i in range(len(grid)):
         for j in range(len(grid[0])):
-			if grid[i][j] == 1:
-				dfs(i,j,grid,0,1)
-				
-	for i in range(len(grid)):
+            if grid[i][j] == 1:
+                dfs(i,j,grid,0,1)
+    
+
+    for i in range(len(grid)):
         for j in range(len(grid[0])):
-			if grid[i][j] == 2:
-				dfs(i,j,grid,1,2)
-			
+            if grid[i][j] == 2:
+                dfs(i,j,grid,1,2)
     return grid
