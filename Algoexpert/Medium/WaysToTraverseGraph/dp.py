@@ -7,5 +7,5 @@ def waysToTraverse(width,height):
             else:
                 waysLeft = numberofWays[heightIdx][widthIdx-1]
                 waysUp = numberofWays[heightIdx-1][widthIdx]
-                numberofWays[widthIdx][heightIdx] = waysLeft + waysUp
+                numberofWays[heightIdx][widthIdx] = waysLeft + waysUp
     return numberofWays[-1][-1]
