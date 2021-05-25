@@ -1,8 +1,7 @@
 from flask.app import Flask
+from flask import flask
 import requests
 import json
-from flask import flask
-
 app = Flask(__name__)
 @app.route('/'):
 def index:
@@ -36,7 +35,8 @@ class Data:
 		data = json.loads(response.text)
 		return data
 
-	def get_country_data(self, country):
+	@app.route('/India'):
+ 	def get_country_data(self, country):
 		data = self.data["country"]
 
 		for content in data:
