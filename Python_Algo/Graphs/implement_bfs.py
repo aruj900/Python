@@ -15,6 +15,6 @@ def bfs(graph,start):
             visited.add(vertex)
             queue.extend(graph[vertex] - visited)
             print(queue)
-    return visite
+    return vertex
 
 print(bfs(graph,'A'))
